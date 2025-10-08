@@ -23,7 +23,7 @@ const handleapplybuttonclick = () => {
 const arrayofcolors = [
   "blue",
   "red",
-  "green",
+  "green", 
   "yellow",
   "pink",
   "purple",

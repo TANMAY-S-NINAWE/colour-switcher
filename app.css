@@ -44,7 +44,7 @@ button {
 }
 input {
   border: rgb(240, 224, 245) 1px solid;
-  border-radius: 30px;
+  border-radius: 30px; 
   padding: 0px 10px;
 }
 button:active {
