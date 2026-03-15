@@ -8,29 +8,47 @@ console.log(colorinput, Currentcolor, applybutton, randombtn);
 
 const changecolor = (color) => {
   container.style.backgroundColor = color;
-  Currentcolor.textContent = color;
+  Currentcolor.textContent = color; 
 };
 
 const handlerandombtnclick = () => {
  let color=getrandomcolor();
 changecolor(color);
 };
-
+ 
 const handleapplybuttonclick = () => {
   let color11 = colorinput.value;
   changecolor(color11);
 };
 const arrayofcolors = [
-  "blue",
   "red",
-  "green", 
+  "blue",
+  "green",
   "yellow",
-  "pink",
-  "purple",
   "orange",
+  "purple",
+  "pink",
   "brown",
-  "grey",
+  "black",
+  "gray",
+  "cyan",
+  "magenta",
+  "lime",
   "teal",
+  "navy",
+  "gold",
+  "coral",
+  "salmon",
+  "turquoise",
+  "violet",
+  "indigo",
+  "chocolate",
+  "crimson",
+  "khaki",
+  "plum",
+  "tan",
+  "tomato",
+  "wheat"
 ];
 const getrandomcolor = () => {
   const randomnumber = Math.floor(Math.random() * arrayofcolors.length);
